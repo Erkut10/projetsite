@@ -12,6 +12,10 @@ for (let i = 0; i < images.length; i++) {
         let nouvelleimage = document.createElement('img');
         nouvelleimage.setAttribute('src', img);
 
+        let fermeture = document.createElement('img');
+        fermeture.setAttribute('src', 'image/croix.png');
+        fermeture.setAttribute('id', 'fermeture');
+
         let p = document.createElement('p');
         p.innerHTML = texte;
 
